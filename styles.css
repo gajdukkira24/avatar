@@ -1,14 +1,15 @@
-header {
+
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
 *,
 *::before,
 *::after {
-box-sizing: border-box;
+    box-sizing: border-box;
 }
-*,
-*::before,
-*::after {
-box-sizing: border-box;
-}
+
 p,
 h1,
 h2,
@@ -16,63 +17,106 @@ h3,
 h4,
 h5,
 h6 {
-margin: 0;
-padding: 0;
+    margin: 0;
+    padding: 0;
 }
+
 ul,
 ol {
-margin: 0;
-padding: 0;
-list-style: none;
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
+
 img {
-display: inline-block;
-max-width: 100%;
-height: auto;
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
 }
+
 a {
-color: inherit;
-text-decoration: none;
+    color: inherit;
+    text-decoration: none;
+
 }
-#li {
+.hero {
+    background-color: gray;
+    width: 1440px;
+    height: 740px;
+    margin-right: auto;
+    margin-left: auto;
+    background-image: url("./img/AvatarBoy.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 180px;
+    padding-bottom: 180px;
+}
+
+.conteyner {
+    width: 1062px;
+    margin: 0 auto;
+    padding: 0 15px;
+    outline: 1px solid red;
+}
+
+.flex {
+    display: flex;
+}
+
+.header {
+    width: 1440px;
+    margin-right: auto;
+    margin-left: auto;
+    background-image: url("./img/Avatarfon.png");
+    background-position: center;
+    background-size: cover;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.header-list {
+    display: flex;
+    gap: 38px;
+}
+.triler {
+    width: 1440px;
+    height: 741px;
+    margin-right: auto;
+    margin-left: auto;
+    background-image: url("./img/Avatargirl.png");
+    background-position: center;
+    background-size: cover;
+}
+.header-list {
+    color:#f0f2f4;
     text-align: center;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 40px;
+}
+.conteyner {
+    color: #FFFFFF;
+    width: 298px;
+    height: 96px;
+    top: 330px;
+}
+button {
+    color:#26C7EA;
+    width: 141px;
+    height: 41.69px;
+    background-color: #0c768e;
+   
+}
+.hero-main {
+    color: #c7c4c4;
 
-    background-image: url("/img/Logotype.png");
-    background-size: contain;
-
-    border: 1px;
-
-    width: 400px;
-    height: 120px;
-    line-height: 75px;
+}
+.hero-main {
+    text-align: right;
+}
+.hmain {
+    color: #ffffff;
+}
+.address {
+    align-items: center;
     
 }
-button {
-    position: absolute;
-    top: 63px;
-    background-color: rgb(28, 134, 169);
-    background-size: contain;
-    width: 65px;
-    height: 25px;
-}
-button {
-    background-color: rgb(18, 127, 186);
-    background-size: contain;
-    width: 260px;
-    height: 80px;
-}
-h1 {
-    text-align: center;
-
-}
-h2 {
-    text-align: center;
-}
-}
-
-
-
-
-
+    
