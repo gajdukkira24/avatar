@@ -213,13 +213,108 @@ button {
     margin-bottom: 40px;
   }
   .teaching-list-child:nth-child(3n + 1) > .teaching-content:first-child::after {
-    background-image: url("../image/image/Rectangle\ 42.png");
+    background-image: url("./img/LeftArrow.png");
   }
   
   .teaching-list-child:nth-child(3n + 2) > .teaching-content:first-child::after {
-    background-image: url("../image/image/Rectangle\ 99.png");
+    background-image: url("./img/LogotypeSmall.png");
   }
   
   .teaching-list-child:nth-child(3n) > .teaching-content:first-child::after {
-    background-image: url("../image/image/Rectangle\ 96.png");
+    background-image: url("./img/RighrArrow.png");
   }
+  .button1 {
+    margin-left: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    text-align: center;
+    border: 2px solid #26c7ea;
+    border-radius: 35px 0;
+    width: 141px;
+    height: 46px;
+    font-family: var(--second-family);
+    font-weight: 401;
+    font-size: 14px;
+    color: #26c6ea;
+    background-color: #0b0e66;
+    align-self: center;
+
+  }
+  .toxe {
+    margin-left: auto;
+    padding-top: 9px;
+    padding-bottom: 8px;
+    padding-right: 20px;
+    padding-left: 20px;
+    text-align: center;
+    border: 2px solid #26c7ea;
+    border-radius: 35px 0;
+    width: 141px;
+    height: 41px;
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 20px;
+    color: #26c6ea;
+    background-color: #0b0e66;
+    align-self: center;
+
+  }
+  .footer {
+    width: 1440px;
+    margin-right: auto;
+    margin-left: auto;
+
+    background-image:linear-gradient(
+      to right,
+      rgba(43, 74, 97, 0.87),
+      rgba(43, 74, 97, 0.87)
+    ), url("./img/Avatarfon.png");
+    background-position: center;
+    background-size: cover;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: #fefcfc;
+    text-align: center;
+  }
+
+
+
+.button1 {
+    margin-left: auto;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-right: 20px;
+    padding-left: 20px;
+    text-align: center;
+    border: 2px solid #26c7ea;
+    border-radius: 35px 0;
+    width: 141px;
+    height: 47px;
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 15px;
+    color: #26c6ea;
+    background-color: #0b0e66;
+    align-self: center;
+
+}
+.button2 {
+    margin-left: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    text-align: center;
+    border: 2px solid #26c7ea;
+    border-radius: 35px 0;
+    width: 260px;
+    height: 80px;
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 24px;
+    color: #26c6ea;
+    background-color: #0b0e66;
+    align-self: center;
+}
